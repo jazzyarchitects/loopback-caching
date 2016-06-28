@@ -1,0 +1,32 @@
+{
+  "name": "loopback-caching",
+  "description": "A mixin to enable caching apis.",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "Jibin Mathews"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazzyarchitects/loopback-caching.git"
+  },
+  "keywords": [
+    "loopback",
+    "strongloop",
+    "mixin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jazzyarchitects/loopback-caching",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "debug": "2.x",
+    "depd": "^1.1.0",
+    "node-redis": "latest"
+  },
+  "peerDependencies": {
+    "loopback-datasource-juggler": ">=2.18.1"
+  },
+  "readme": "ERROR: No README data found!"
+}
